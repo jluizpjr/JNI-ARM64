@@ -8,7 +8,7 @@ ConversorMaiuscula.class: ConversorMaiuscula.java
 	javac $^
 
 ConversorMaiuscula.h: ConversorMaiuscula.class
-	javac -h . ConversorMaiuscula
+	javac -h . ConversorMaiuscula.java
 
 conversormaiuscula.o: conversormaiuscula.asm
 	as -o $@ $^
